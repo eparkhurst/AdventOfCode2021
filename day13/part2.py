@@ -4,7 +4,7 @@ with open("input.txt") as f:
 
 def print_dict(dot_dict, max_x, max_y):
     matrix = []
-    for i in range(max_y + 1):
+    for i in range(max_y):
         matrix.append(["."] * (max_x))
     for y in dot_dict:
         for x in dot_dict[y]:
